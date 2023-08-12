@@ -19,7 +19,7 @@ struct ContentView: View {
         NavigationStack {
             List(viewModel.exampleApps) { example in
                 NavigationLink(destination: example.destination) {
-                    ExampleAppListItemView(name: example.name, icon: example.icon)
+                    ExampleAppListItemView(name: example.name, icon: example.icon, color: example.color)
                 }
             }
             .navigationTitle("Example Apps")

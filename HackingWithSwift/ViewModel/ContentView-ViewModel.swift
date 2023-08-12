@@ -13,8 +13,8 @@ import SwiftUI
 extension ContentView {
     @MainActor class ViewModel: ObservableObject {
         @Published var exampleApps: [ExampleApp] = [
-            ExampleApp(name: "Bucket List", icon: "map.fill", destination: AnyView(BucketListView())),
-            ExampleApp(name: "We Split", icon: "creditcard", destination: AnyView(WeSplitView()))
+            ExampleApp(name: "Bucket List", icon: "map.fill", color: .blue, destination: AnyView(BucketListView())),
+            ExampleApp(name: "We Split", icon: "creditcard", color: .yellow, destination: AnyView(WeSplitView()))
         ]
     }
 }

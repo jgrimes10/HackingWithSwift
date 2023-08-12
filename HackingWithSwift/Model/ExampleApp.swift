@@ -14,12 +14,14 @@ struct ExampleApp: Identifiable {
     let id: UUID
     let name: String
     let icon: String
+    let color: Color
     let destination: AnyView
     
-    init(name: String, icon: String, destination: AnyView) {
+    init(name: String, icon: String, color: Color, destination: AnyView) {
         self.id = UUID()
         self.name = name
         self.icon = icon
+        self.color = color
         self.destination = destination
     }
 }

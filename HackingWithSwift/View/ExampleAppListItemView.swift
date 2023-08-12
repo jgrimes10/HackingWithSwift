@@ -14,13 +14,14 @@ struct ExampleAppListItemView: View {
     // MARK: - PROPERTIES
     var name: String
     var icon: String
+    var color: Color
     
     // MARK: - BODY
     var body: some View {
         HStack {
             ZStack {
                 RoundedRectangle(cornerRadius: 12)
-                    .foregroundColor(.blue)
+                    .foregroundColor(color)
                     .frame(width: 64, height: 64)
                 
                 Image(systemName: icon)
@@ -39,6 +40,6 @@ struct ExampleAppListItemView: View {
 // MARK: - PREVIEW
 struct ExampleAppListItemView_Previews: PreviewProvider {
     static var previews: some View {
-        ExampleAppListItemView(name: "Test App", icon: "testtube.2")
+        ExampleAppListItemView(name: "Test App", icon: "testtube.2", color: .blue)
     }
 }
