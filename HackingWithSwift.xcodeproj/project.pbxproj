@@ -19,6 +19,7 @@
 		D04AEC032A873AC100D95E6E /* Location-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEC022A873AC100D95E6E /* Location-Model.swift */; };
 		D04AEC052A873B9400D95E6E /* Result-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEC042A873B9400D95E6E /* Result-Model.swift */; };
 		D04AEC082A873C5500D95E6E /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEC072A873C5500D95E6E /* FileManager-DocumentsDirectory.swift */; };
+		D04AEC0A2A873CA700D95E6E /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEC092A873CA700D95E6E /* ContentView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D04AEC022A873AC100D95E6E /* Location-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location-Model.swift"; sourceTree = "<group>"; };
 		D04AEC042A873B9400D95E6E /* Result-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result-Model.swift"; sourceTree = "<group>"; };
 		D04AEC072A873C5500D95E6E /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		D04AEC092A873CA700D95E6E /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 		D04AEC012A873AA500D95E6E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D04AEC092A873CA700D95E6E /* ContentView-ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				D04AEBF72A872E6E00D95E6E /* ContentView-ViewModel.swift in Sources */,
 				D04AEBFD2A872F3300D95E6E /* WeSplitView.swift in Sources */,
 				D04AEC082A873C5500D95E6E /* FileManager-DocumentsDirectory.swift in Sources */,
+				D04AEC0A2A873CA700D95E6E /* ContentView-ViewModel.swift in Sources */,
 				D04AEBDE2A872B7300D95E6E /* ContentView.swift in Sources */,
 				D04AEC032A873AC100D95E6E /* Location-Model.swift in Sources */,
 				D04AEBDC2A872B7300D95E6E /* HackingWithSwiftApp.swift in Sources */,
