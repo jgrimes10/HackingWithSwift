@@ -20,6 +20,7 @@
 		D04AEC052A873B9400D95E6E /* Result-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEC042A873B9400D95E6E /* Result-Model.swift */; };
 		D04AEC082A873C5500D95E6E /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEC072A873C5500D95E6E /* FileManager-DocumentsDirectory.swift */; };
 		D04AEC0A2A873CA700D95E6E /* BucketList-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEC092A873CA700D95E6E /* BucketList-ViewModel.swift */; };
+		D04AEC0C2A87485600D95E6E /* PlaceEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEC0B2A87485600D95E6E /* PlaceEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		D04AEC042A873B9400D95E6E /* Result-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result-Model.swift"; sourceTree = "<group>"; };
 		D04AEC072A873C5500D95E6E /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		D04AEC092A873CA700D95E6E /* BucketList-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BucketList-ViewModel.swift"; sourceTree = "<group>"; };
+		D04AEC0B2A87485600D95E6E /* PlaceEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				D04AEBFA2A872F1400D95E6E /* BucketListView.swift */,
+				D04AEC0B2A87485600D95E6E /* PlaceEditView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				D04AEBFF2A872FE800D95E6E /* ExampleAppListItemView.swift in Sources */,
 				D04AEBF52A872DA800D95E6E /* ExampleApp.swift in Sources */,
 				D04AEC052A873B9400D95E6E /* Result-Model.swift in Sources */,
+				D04AEC0C2A87485600D95E6E /* PlaceEditView.swift in Sources */,
 				D04AEBF72A872E6E00D95E6E /* ContentView-ViewModel.swift in Sources */,
 				D04AEBFD2A872F3300D95E6E /* WeSplitView.swift in Sources */,
 				D04AEC082A873C5500D95E6E /* FileManager-DocumentsDirectory.swift in Sources */,

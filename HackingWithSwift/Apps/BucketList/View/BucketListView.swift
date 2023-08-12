@@ -67,6 +67,11 @@ struct BucketListView: View {
                     }
                 }
             }
+            .sheet(item: $viewModel.selectedPlace) { place in
+                PlaceEditView(location: place) { newLocation in
+                    viewModel.updateLocation(for: newLocation)
+                }
+            }
         } else {
             // Not authenticated
             Button("Unlock Places") {
