@@ -11,7 +11,7 @@
 import SwiftUI
 
 extension ContentView {
-    @MainActor class viewModel: ObservableObject {
+    @MainActor class ViewModel: ObservableObject {
         @Published var exampleApps: [ExampleApp] = [
             ExampleApp(name: "Bucket List", icon: "map.fill", destination: AnyView(BucketListView())),
             ExampleApp(name: "We Split", icon: "creditcard", destination: AnyView(WeSplitView()))

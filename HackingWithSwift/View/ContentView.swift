@@ -12,16 +12,18 @@ import SwiftUI
 
 struct ContentView: View {
     // MARK: - PROPERTIES
+    @StateObject private var viewModel = ViewModel()
     
     // MARK: - BODY
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            List(viewModel.exampleApps) { example in
+                NavigationLink(destination: example.destination) {
+                    ExampleAppListItemView(name: example.name, icon: example.icon)
+                }
+            }
+            .navigationTitle("Example Apps")
         }
-        .padding()
     }
 }
 
