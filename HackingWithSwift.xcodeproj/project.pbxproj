@@ -16,6 +16,7 @@
 		D04AEBFB2A872F1400D95E6E /* BucketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEBFA2A872F1400D95E6E /* BucketListView.swift */; };
 		D04AEBFD2A872F3300D95E6E /* WeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEBFC2A872F3300D95E6E /* WeSplitView.swift */; };
 		D04AEBFF2A872FE800D95E6E /* ExampleAppListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEBFE2A872FE800D95E6E /* ExampleAppListItemView.swift */; };
+		D04AEC032A873AC100D95E6E /* Location-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEC022A873AC100D95E6E /* Location-Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D04AEBFA2A872F1400D95E6E /* BucketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListView.swift; sourceTree = "<group>"; };
 		D04AEBFC2A872F3300D95E6E /* WeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitView.swift; sourceTree = "<group>"; };
 		D04AEBFE2A872FE800D95E6E /* ExampleAppListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppListItemView.swift; sourceTree = "<group>"; };
+		D04AEC022A873AC100D95E6E /* Location-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location-Model.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,8 @@
 		D04AEBF22A872D7400D95E6E /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				D04AEC012A873AA500D95E6E /* ViewModel */,
+				D04AEC002A873A9F00D95E6E /* Model */,
 				D04AEBF92A872EF800D95E6E /* View */,
 			);
 			path = BucketList;
@@ -144,6 +148,21 @@
 				D04AEBFA2A872F1400D95E6E /* BucketListView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D04AEC002A873A9F00D95E6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D04AEC022A873AC100D95E6E /* Location-Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D04AEC012A873AA500D95E6E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +241,7 @@
 				D04AEBF72A872E6E00D95E6E /* ContentView-ViewModel.swift in Sources */,
 				D04AEBFD2A872F3300D95E6E /* WeSplitView.swift in Sources */,
 				D04AEBDE2A872B7300D95E6E /* ContentView.swift in Sources */,
+				D04AEC032A873AC100D95E6E /* Location-Model.swift in Sources */,
 				D04AEBDC2A872B7300D95E6E /* HackingWithSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
