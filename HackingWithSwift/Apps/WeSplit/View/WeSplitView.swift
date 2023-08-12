@@ -11,11 +11,15 @@
 import SwiftUI
 
 struct WeSplitView: View {
+    // MARK: - PROPERTIES
+    
+    // MARK: - BODY
     var body: some View {
         Text("We Split View")
     }
 }
 
+// MARK: - PREVIEW
 struct WeSplitView_Previews: PreviewProvider {
     static var previews: some View {
         WeSplitView()

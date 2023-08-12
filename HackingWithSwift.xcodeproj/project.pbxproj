@@ -15,6 +15,7 @@
 		D04AEBF72A872E6E00D95E6E /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEBF62A872E6E00D95E6E /* ContentView-ViewModel.swift */; };
 		D04AEBFB2A872F1400D95E6E /* BucketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEBFA2A872F1400D95E6E /* BucketListView.swift */; };
 		D04AEBFD2A872F3300D95E6E /* WeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEBFC2A872F3300D95E6E /* WeSplitView.swift */; };
+		D04AEBFF2A872FE800D95E6E /* ExampleAppListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AEBFE2A872FE800D95E6E /* ExampleAppListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		D04AEBF62A872E6E00D95E6E /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 		D04AEBFA2A872F1400D95E6E /* BucketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListView.swift; sourceTree = "<group>"; };
 		D04AEBFC2A872F3300D95E6E /* WeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitView.swift; sourceTree = "<group>"; };
+		D04AEBFE2A872FE800D95E6E /* ExampleAppListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,11 @@
 		D04AEBDA2A872B7300D95E6E /* HackingWithSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D04AEBDB2A872B7300D95E6E /* HackingWithSwiftApp.swift */,
 				D04AEBEF2A872D6F00D95E6E /* Apps */,
 				D04AEBF02A872D6F00D95E6E /* Model */,
 				D04AEBF12A872D6F00D95E6E /* View */,
 				D04AEBEE2A872D6F00D95E6E /* ViewModel */,
-				D04AEBDB2A872B7300D95E6E /* HackingWithSwiftApp.swift */,
-				D04AEBDD2A872B7300D95E6E /* ContentView.swift */,
 				D04AEBDF2A872B7400D95E6E /* Assets.xcassets */,
 				D04AEBE12A872B7400D95E6E /* Preview Content */,
 			);
@@ -107,6 +108,8 @@
 		D04AEBF12A872D6F00D95E6E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D04AEBDD2A872B7300D95E6E /* ContentView.swift */,
+				D04AEBFE2A872FE800D95E6E /* ExampleAppListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04AEBFB2A872F1400D95E6E /* BucketListView.swift in Sources */,
+				D04AEBFF2A872FE800D95E6E /* ExampleAppListItemView.swift in Sources */,
 				D04AEBF52A872DA800D95E6E /* ExampleApp.swift in Sources */,
 				D04AEBF72A872E6E00D95E6E /* ContentView-ViewModel.swift in Sources */,
 				D04AEBFD2A872F3300D95E6E /* WeSplitView.swift in Sources */,
