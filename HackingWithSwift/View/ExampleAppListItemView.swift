@@ -12,16 +12,33 @@ import SwiftUI
 
 struct ExampleAppListItemView: View {
     // MARK: - PROPERTIES
+    var name: String
+    var icon: String
     
     // MARK: - BODY
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            ZStack {
+                RoundedRectangle(cornerRadius: 12)
+                    .foregroundColor(.blue)
+                    .frame(width: 64, height: 64)
+                
+                Image(systemName: icon)
+                    .foregroundColor(.white)
+                    .font(.largeTitle)
+            }
+            
+            Text(name)
+                .font(.title)
+                .padding(.horizontal)
+        }
+        .padding(.vertical, 4)
     }
 }
 
 // MARK: - PREVIEW
 struct ExampleAppListItemView_Previews: PreviewProvider {
     static var previews: some View {
-        ExampleAppListItemView()
+        ExampleAppListItemView(name: "Test App", icon: "testtube.2")
     }
 }
