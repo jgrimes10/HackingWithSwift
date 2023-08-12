@@ -1,5 +1,5 @@
 //
-//  ContentView-ViewModel.swift
+//  BucketList-ViewModel.swift
 //  HackingWithSwift
 //
 //  Created by Justin Grimes on 8/12/23.
@@ -12,7 +12,7 @@ import MapKit
 import LocalAuthentication
 import Foundation
 
-extension ContentView {
+extension BucketListView {
     // UI updates MUST happen on the MainActor
     // Just to be safe, whenever you have a class that
     // conforms to the ObservableObject, just go ahead
